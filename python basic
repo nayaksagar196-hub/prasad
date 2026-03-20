@@ -1,0 +1,61 @@
+# Assignment - Python Basics
+
+## Question 1: What is Python and why is it widely used in Data Analytics? Mention any three reasons.
+
+**Answer:**  
+Python is a high-level programming language widely used in data analytics because it is easy to learn, provides powerful libraries, and has strong community support.
+
+## Question 2: Explain the difference between List and Tuple in Python.
+
+**Answer:**  
+- List is mutable (can be changed), whereas Tuple is immutable (cannot be changed).  
+- List uses square brackets `[]`, whereas Tuple uses parentheses `()`.  
+- Lists are slower compared to Tuples.
+
+## Question 3: What is a function in Python? Why are functions useful?
+
+**Answer:**  
+A function is a block of code that performs a specific task. Functions are useful because they reduce code repetition and make programs more organized and reusable.
+
+## Question 4: Write a Python program to take a user's name as input and print a greeting message.
+
+name = input("Prasad")
+print("Hello", name, "! Welcome!")
+
+## Question 5: Write a Python program to check whether a number is even or odd using conditional statements.
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+## Question 6: Write a program to print numbers from 1 to 10 using a loop.
+
+for i in range(1, 11):
+    print(i)
+
+## Question 7: Create a list of five numbers and print the maximum number from the list.
+
+numbers = [10, 25, 5, 40, 15]
+print("Maximum number is:", max(numbers))
+
+## Question 8: Write a Python program to remove duplicate values from a list using a set.
+
+numbers = [1, 2, 2, 3, 4, 4, 5]
+unique_numbers = list(set(numbers))
+print(unique_numbers)
+
+## Question 9: Write a function that returns the square of a number.
+
+def square(num):
+    return num * num
+
+print(square(5))
+
+## Question 10: Write a Python program to count how many times a number appears in a list.
+
+numbers = [2, 3, 4, 2, 5, 2]
+count = numbers.count(2)
+print("Number appears", count, "times")
